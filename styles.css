@@ -1111,7 +1111,7 @@ footer{
         justify-content: space-around;
         /* margin-top: -70px; */
         align-items: center;
-        gap: 15px;
+        gap: 30px;
         margin-bottom: 50px;
     }
     .div21{
@@ -1146,7 +1146,8 @@ footer{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 100px;
+        margin: 50px;
+        gap: 50px;
         
     }
     .div31{
@@ -1157,7 +1158,7 @@ footer{
     .div4{
         display: flex;
         flex-direction: column;
-        
+        gap: 50px;
         align-items: center;
         margin-bottom: 75px;
     
@@ -1169,6 +1170,7 @@ footer{
         align-items: center;
         gap: 10px;
         margin-bottom: 50px;
+        margin-left: 20px;
     }
     .div4-intro h1{
         font-size: 15px;
@@ -1179,6 +1181,7 @@ footer{
         flex-direction: column;
         justify-content: space-between;
         
+        
     
     }
     .div4-profile-2{
@@ -1188,6 +1191,9 @@ footer{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        width: 80%;
+        height: auto;
+        margin-bottom: 50px;
     }
     .div4-profile-1{
         padding: 10px;
@@ -1196,6 +1202,9 @@ footer{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        width: 80%;
+        height: auto;
+        margin-bottom: 50px;
     }
     .div4-profile-3{
         padding: 10px;
@@ -1204,12 +1213,15 @@ footer{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        width: 80%;
+        height: auto;
+        margin-bottom: 50px;
     }.div4-profile ul{
         display: flex;
     }
     .div4-profile img{
-        height: 100px;
-        width: 100px;
+        height: 200px;
+        width: 200px;
 
     }
     
@@ -1240,19 +1252,20 @@ footer{
     flex-direction: column;
     /* background-color: blueviolet; */
     justify-content: space-between;
+    display: none;
     margin-bottom: 50px;
     
 
 
 }
 .div6-left{
-    width: 50%;
+    width: 100%;
     margin-left: 10px;
 }
 .div6-right{
     display: flex;
     
-    width: 50%;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -1278,6 +1291,7 @@ footer{
     gap: 10px;
     text-align: center;
     margin-bottom: 35px;
+    justify-content: space-around;
 }
 
 .div7 h1{
@@ -1304,6 +1318,8 @@ footer{
     border-style:solid;
     border-color: rgb(0, 187, 255);
     border-radius: 5px;
+    margin-top: 30px;
+    width: 80%;
 }
 .price-value{
     display: flex;
@@ -1326,7 +1342,8 @@ footer{
     color: white;
     border-color:rgb(0, 162, 255);
     border-radius: 10px;
-    margin-top: -15px;
+    margin-top: 30px;
+    width: 80%;
 
 }
 .div83{
@@ -1338,6 +1355,8 @@ footer{
     border-style:solid;
     border-color: rgb(0, 187, 255);
     border-radius: 10px;
+    margin-top: 30px;
+    width: 80%;
 
 }
 .div83 h1{
@@ -1364,29 +1383,31 @@ footer{
     background-color: rgb(5, 30, 75);
     justify-content: space-around;
     color: white;
-    padding-bottom: 200px;
     padding-top: 50px;
 }
 .div9-left{
-    width: 30%;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    margin-left: 20px;
+    
 
 }
 .div9-right{
-    width: 30%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 
 
 .div9 img{
-    width: 60%;
+    width: 100%;
 }
 .div10{
     display: flex;
@@ -1438,7 +1459,7 @@ footer{
     flex-wrap: wrap;
     margin-bottom: 25px;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 100px;
     
 }
@@ -1490,9 +1511,10 @@ footer{
 .div11{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 50px;
     margin-top: 50px;
+    gap: 30px;
 }
 .div11 h1{
     font-size: 30px;
